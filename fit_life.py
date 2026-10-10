@@ -1,5 +1,8 @@
 """Проект FitLife - MVP версия 1.0."""
 
+WATER_PER_KG = 30
+WATER_ML = 1000
+
 
 def calculate_fit_metrics(weight, height):
     """Вычисления индекса массы тела и воды."""
