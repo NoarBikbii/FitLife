@@ -1,7 +1,8 @@
 """Проект FitLife - MVP версия 1.0."""
 
+
 def calculate_fit_metrics(weight, height):
-    # Рассчеты.
+    """Вычисления индекса массы тела и воды."""
     bmi = weight / (height ** 2)
     water_l = (weight * 30) / 1000
     return round(bmi, 1), round(water_l, 1)
